@@ -44,6 +44,10 @@ public class Bus {
         ratarata=maxPenumpang/counter;
         System.out.println("Rata-rata penumpang adalah = "+ratarata);
     }
+    public void cetak(){
+        System.out.println("Maksimal berat penumpang = " +maxPenumpang);
+        System.out.println("Jumlah berat Penumpang = " +penumpang);
+    }
     //
 }
     
